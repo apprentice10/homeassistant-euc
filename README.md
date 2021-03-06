@@ -17,6 +17,6 @@ Above command should connect to nearby wheel and start displaying data.
 
 ## Instalation
 
-Place directory **euc** in custom_components directory of your HASS installation (or create symlink **custom_components/euc** pointing to euc directory of cloned repository). In homeassistant go to Configuration / Integrations page and search for "Electric Unicycle" integration. After adding integration new sensors of basic wheel parameters should be visible.
+Place directory **euc** in custom_components directory of your HASS installation (or create symlink **custom_components/euc** pointing to euc directory of cloned repository). In homeassistant go to Configuration / Integrations page and search for "EUC" integration. After adding integration new sensors of basic wheel parameters should be visible.
 
 Currently integration is read-only (only sensors are available), but rw access is also planned.
